@@ -1,0 +1,62 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"deps/zstd-1.5.6/build/cmake/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 167,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "libzstd::@a89a8ffbce2913ecc866",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libzstd_static::@a89a8ffbce2913ecc866"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libzstd_static::@a89a8ffbce2913ecc866"
+		}
+	],
+	"name" : "libzstd",
+	"paths" : 
+	{
+		"build" : "deps/zstd-1.5.6/build/cmake/lib",
+		"source" : "deps/zstd-1.5.6/build/cmake/lib"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

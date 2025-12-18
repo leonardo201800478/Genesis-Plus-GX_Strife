@@ -1,0 +1,279 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "libzstd::@a89a8ffbce2913ecc866",
+					"jsonFile" : "target-libzstd-Debug-f444d2e4ad4757b9b8bf.json",
+					"name" : "libzstd",
+					"projectIndex" : 3
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-414e5d93730a0193192f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "deps/lzma-24.05",
+					"jsonFile" : "directory-deps.lzma-24.05-Debug-447a935c35176e94edc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps/lzma-24.05",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "deps/zlib-1.3.1",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.zlib-1.3.1-Debug-f35c4c5a79c77da3f65e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps/zlib-1.3.1",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "deps/zstd-1.5.6/build/cmake",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.zstd-1.5.6.build.cmake-Debug-518c7c0f35d9d4d2a3dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "deps/zstd-1.5.6/build/cmake",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "deps/zstd-1.5.6/build/cmake/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.zstd-1.5.6.build.cmake.lib-Debug-50f7cda6101d48f01fdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "deps/zstd-1.5.6/build/cmake/lib",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-74d1b11f0521a8d27dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						5
+					],
+					"name" : "chdr",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "zlib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "zstd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libzstd",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chdr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chdr-Debug-aaf2344ed81d1852caba.json",
+					"name" : "chdr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "chdr-benchmark::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-chdr-benchmark-Debug-6fa64ec3a03c68ca05b8.json",
+					"name" : "chdr-benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chdr-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chdr-static-Debug-72458bdc0a47aeed6782.json",
+					"name" : "chdr-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "clean-all::@5e3d272715f52edae19e",
+					"jsonFile" : "target-clean-all-Debug-7b2b396e590348474f65.json",
+					"name" : "clean-all",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libzstd_static::@a89a8ffbce2913ecc866",
+					"jsonFile" : "target-libzstd_static-Debug-406acdf65d9fc617680f.json",
+					"name" : "libzstd_static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lzma::@6db2e015ce99da8dc693",
+					"jsonFile" : "target-lzma-Debug-67a9e695562b567cca38.json",
+					"name" : "lzma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@a89a8ffbce2913ecc866",
+					"jsonFile" : "target-uninstall-Debug-5024d2a603c2c2dc70be.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "zlib::@b5026cf0bdf16fe2c8b1",
+					"jsonFile" : "target-zlib-Debug-bc2bee63556f32dc90ce.json",
+					"name" : "zlib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "zlibstatic::@b5026cf0bdf16fe2c8b1",
+					"jsonFile" : "target-zlibstatic-Debug-a1127c0f0862ba08d045.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/leonardo.paiva/source/repos/leonardo201800478/Genesis-Plus-GX_Strife/build",
+		"source" : "C:/Users/leonardo.paiva/source/repos/leonardo201800478/Genesis-Plus-GX_Strife/core/cd_hw/libchdr"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

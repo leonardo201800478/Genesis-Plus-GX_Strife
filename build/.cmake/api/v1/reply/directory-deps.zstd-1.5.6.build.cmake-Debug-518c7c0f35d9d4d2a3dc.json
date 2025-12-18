@@ -1,0 +1,77 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/zstd-1.5.6/build/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 212,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zstd",
+			"exportName" : "zstdExports",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libzstd_static::@a89a8ffbce2913ecc866",
+					"index" : 4
+				},
+				{
+					"id" : "libzstd::@a89a8ffbce2913ecc866",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"deps/zstd-1.5.6/build/cmake/CMakeFiles/Export/24b5c28278294f635c8f75e4f2508fe8/zstdTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/zstd",
+			"paths" : 
+			[
+				"C:/Users/leonardo.paiva/source/repos/leonardo201800478/Genesis-Plus-GX_Strife/build/deps/zstd-1.5.6/build/cmake/zstdConfig.cmake",
+				"C:/Users/leonardo.paiva/source/repos/leonardo201800478/Genesis-Plus-GX_Strife/build/deps/zstd-1.5.6/build/cmake/zstdConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/zstd-1.5.6/build/cmake",
+		"source" : "deps/zstd-1.5.6/build/cmake"
+	}
+}

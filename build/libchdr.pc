@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/chdr
+libdir=${prefix}/lib
+includedir=${prefix}/include/libchdr
+
+Name: libchdr
+Description: Standalone library for reading MAME's CHDv1-v5 formats
+Version: 0.2
+Libs: -L${libdir} -lchdr 
+Cflags: -I${includedir}
+
