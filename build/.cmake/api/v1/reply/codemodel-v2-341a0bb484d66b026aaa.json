@@ -2,16 +2,7 @@
 	"configurations" : 
 	[
 		{
-			"abstractTargets" : 
-			[
-				{
-					"directoryIndex" : 4,
-					"id" : "libzstd::@a89a8ffbce2913ecc866",
-					"jsonFile" : "target-libzstd-Debug-f444d2e4ad4757b9b8bf.json",
-					"name" : "libzstd",
-					"projectIndex" : 3
-				}
-			],
+			"abstractTargets" : [],
 			"directories" : 
 			[
 				{
@@ -76,10 +67,10 @@
 						4
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-deps.zstd-1.5.6.build.cmake-Debug-518c7c0f35d9d4d2a3dc.json",
+					"jsonFile" : "directory-deps.zstd-1.5.6.build.cmake-Debug-cd94c73eb4edc81176e2.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5"
+						"string" : "4.2.1"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 2,
@@ -90,16 +81,12 @@
 					]
 				},
 				{
-					"abstractTargetIndexes" : 
-					[
-						0
-					],
 					"build" : "deps/zstd-1.5.6/build/cmake/lib",
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-deps.zstd-1.5.6.build.cmake.lib-Debug-50f7cda6101d48f01fdc.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5"
+						"string" : "4.2.1"
 					},
 					"parentIndex" : 3,
 					"projectIndex" : 3,
@@ -180,10 +167,6 @@
 					]
 				},
 				{
-					"abstractTargetIndexes" : 
-					[
-						0
-					],
 					"directoryIndexes" : 
 					[
 						4
@@ -209,7 +192,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "chdr-benchmark::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-chdr-benchmark-Debug-bcf867caa9de07e89f87.json",
+					"jsonFile" : "target-chdr-benchmark-Debug-6fa64ec3a03c68ca05b8.json",
 					"name" : "chdr-benchmark",
 					"projectIndex" : 0
 				},

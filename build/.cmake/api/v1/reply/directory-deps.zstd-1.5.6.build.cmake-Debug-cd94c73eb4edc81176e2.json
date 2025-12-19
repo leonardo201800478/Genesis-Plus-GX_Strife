@@ -45,10 +45,6 @@
 				{
 					"id" : "libzstd_static::@a89a8ffbce2913ecc866",
 					"index" : 4
-				},
-				{
-					"id" : "libzstd::@a89a8ffbce2913ecc866",
-					"index" : 0
 				}
 			],
 			"paths" : 
